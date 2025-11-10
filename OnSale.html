@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>T.K.Maxx</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>T.K.Maxx</title>
+    <link rel="stylesheet" href="CSS/nav.css" />
+    <link rel="stylesheet" href="CSS/footer.css" />
+    <link rel="stylesheet" href="CSS/all-cat.css" />
+    <link rel="stylesheet" href="CSS/banner.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <!-- Brand -->
+        <a href="home.html" class="brand">
+          <img src="Images/logo.png" alt="T.K.Maxx Logo" class="logo" />
+        </a>
+
+        <!-- Hidden checkbox -->
+        <input
+          type="checkbox"
+          id="nav-toggle"
+          class="nav-toggle"
+          aria-hidden="true"
+        />
+
+        <!-- Hamburger label with SVG -->
+        <label for="nav-toggle" class="hamburger" aria-label="Toggle menu">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            width="28"
+            height="28"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </label>
+
+        <!-- Nav content -->
+        <div class="nav-content">
+          <!-- Left nav -->
+          <div class="nav-left">
+            <a href="home.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="NewIn.html">New In</a>
+            <a href="OnSale.html" class="active">On Sale</a>
+            <a href="contact.html">Contact</a>
+          </div>
+
+          <!-- Right nav -->
+          <div class="nav-right">
+            <!-- Search -->
+            <form role="search" aria-label="Site search" class="search">
+              <input type="search" placeholder="Search..." />
+              <button type="submit" aria-label="Search">
+                <!-- Search icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="20"
+                  height="20"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 
+                     5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+                  />
+                </svg>
+              </button>
+            </form>
+
+            <!-- Basket -->
+            <a href="basket.html" aria-label="Basket" class="icon-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                width="28"
+                height="28"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 2.25h1.5l1.5 12h13.5l1.5-9H6M16.5 19.5a1.5 1.5 0 11-3 
+                   0 1.5 1.5 0 013 0zm-7.5 0a1.5 1.5 0 11-3 
+                   0 1.5 1.5 0 013 0z"
+                />
+              </svg>
+            </a>
+
+            <!-- Account -->
+            <a href="account.html" aria-label="My account" class="icon-link">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                width="28"
+                height="28"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.5 
+                   20.25a8.25 8.25 0 1115 0v.75H4.5v-.75z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ===== ON SALE PAGE BANNER ===== -->
+      <section class="banner">
+        <div class="banner-content">
+          <h1>Big <span>Fashion Savings</span></h1>
+          <p>
+            Get the best deals on designer styles. Limited stock — once it’s
+            gone, it’s gone!
+          </p>
+        </div>
+      </section>
+      <!-- =================== PROMOTIONAL =================== -->
+      <div class="section">
+        <div class="cards-grid">
+          <!-- Product Card -->
+          <div class="p-card">
+            <div class="image-box">
+              <img src="Images/men/Folk.jpg" alt="Folk Dark Green Zip Polo" />
+              <!-- Wishlist -->
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">FOLK</h3>
+              <p class="desc">Green Zip Neck Sweatshirt</p>
+
+              <div class="price promo-price">
+                <span class="now">£29.99</span>
+                <span class="was">Was £140.00</span>
+                <span class="save">-79%</span>
+              </div>
+
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+          <!-- Product Card -->
+          <div class="p-card">
+            <div class="image-box">
+              <img
+                src="Images/men/tommy jeans.jpg"
+                alt="TOMMY JEANS"
+              />
+              <!-- Wishlist -->
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">TOMMY JEANS</h3>
+              <p class="desc">Navy Knit Beanie Hat</p>
+
+              <div class="price promo-price">
+                <span class="now">£12.99</span>
+                <span class="was">Was £30.00</span>
+                <span class="save">-57%</span>
+              </div>
+
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+          <!-- Product Card -->
+          <div class="p-card">
+            <div class="image-box">
+              <img src="Images/women/dune.jpg" alt="DUNE, Brown Leather Tildy Knee High Boots" />
+              <!-- Wishlist -->
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">DUNE</h3>
+              <p class="desc">Brown Leather Tildy Knee High Boots</p>
+
+              <div class="price promo-price">
+                <span class="now">£79.99</span>
+                <span class="was">Was £140.00</span>
+                <span class="save">-43%</span>
+              </div>
+
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+          <!-- Product Card -->
+          <div class="p-card">
+            <div class="image-box">
+              <img
+                src="Images/women/scotch & soda.jpg"
+                alt="SCOTH & SODA"
+              />
+              <!-- Wishlist -->
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">SCOTH & SODA</h3>
+              <p class="desc">Brown & Navy Argyle Jumper</p>
+
+              <div class="price promo-price">
+                <span class="now">£29.99</span>
+                <span class="was">Was £76.00</span>
+                <span class="save">-61%</span>
+              </div>
+
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+          <!-- Product Card -->
+          <div class="p-card">
+            <div class="image-box">
+              <img src="Images/men/folk-2.jpg" alt="Folk, Khaki Ripstop Over Shirt" />
+              <!-- Wishlist -->
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">FOLK</h3>
+              <p class="desc">Khaki Ripstop Over Shirt</p>
+
+              <div class="price promo-price">
+                <span class="now">£59.99</span>
+                <span class="was">Was £100.00</span>
+                <span class="save">-40%</span>
+              </div>
+
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+          <div class="p-card">
+            <div class="image-box">
+              <img src="Images/kids/DKNY JEANS.jpg" alt="DKNY JEANS" />
+              <button class="wish" aria-label="Add to wishlist">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  width="22"
+                  height="22"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5
+                       -1.935 0-3.597 1.126-4.312 2.733
+                       -.715-1.607-2.377-2.733-4.313-2.733
+                       C5.1 3.75 3 5.765 3 8.25
+                       c0 7.22 9 11.25 9 11.25s9-4.03 9-11.25z"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="p-body">
+              <h3 class="title">DKNY JEANS</h3>
+              <p class="desc">
+                Three Piece Blue & Grey Hoodie Vest & Joggers Set
+              </p>
+              <div class="price promo-price">
+                <span class="now">£14.99</span>
+                <span class="was">Was £34.99</span>
+                <span class="save">-57%</span>
+              </div>
+              <a href="#" class="add-btn">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="notice">
+        <strong>Important Safety Notice</strong> – See our product recalls
+        <a href="">here</a>
+      </p>
+
+      <h3>Sign up for exclusive offers</h3>
+      <p class="subtext">
+        Plus, you’ll get the inside scoop on designer deliveries, our biggest
+        savings and more!
+      </p>
+
+      <form class="signup" action="#" method="post">
+        <input type="email" placeholder="someone@emailprovider.com" required />
+        <button type="submit">SUBSCRIBE</button>
+      </form>
+
+      <div class="links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms and Conditions</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+.footer {
+  text-align: center;
+  background: #dded9f;
+  border-top: 1px solid #ddd;
+  padding: 30px 16px;
+  color: #111;
+}
+
+/* Safety notice */
+.notice {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.notice strong {
+  color: #ef4444;
+}
+.notice a {
+  color: #ef4444;
+  text-decoration: underline;
+}
+
+/* Headings and text */
+.footer h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.subtext {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+/* Signup form */
+.signup {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.signup input {
+  outline: none;
+  width: 280px;
+  padding: 10px;
+}
+.signup button {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  padding: 10px 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.signup button:hover {
+  background: #ffffff;
+  color: #ef4444;
+}
+
+/* Links */
+.links {
+  margin-bottom: 20px;
+}
+.links a {
+  color: #111;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 0.9rem;
+}
+.links a:hover {
+  text-decoration: underline;
+  color: #ef4444;
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .signup {
+    flex-direction: column;
+    align-items: center;
+  }
+  .signup input {
+    width: 90%;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+}
